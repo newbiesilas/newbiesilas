@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Silas Zhang - Hi, I'm Silas.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4F7F72"/>
+      <stop offset="0.55" stop-color="#437166"/>
+      <stop offset="1" stop-color="#35594F"/>
+    </linearGradient>
+    <linearGradient id="arc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7A4A2E"/>
+      <stop offset="1" stop-color="#5E3720"/>
+    </linearGradient>
+    <clipPath id="avatarClip">
+      <circle cx="250" cy="210" r="138"/>
+    </clipPath>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <path d="M 900 0 A 560 560 0 0 1 1200 420 L 1200 0 Z" fill="url(#arc)"/>
+
+  <!-- avatar -->
+  <circle cx="250" cy="210" r="138" fill="#FFFFFF" fill-opacity="0.10"/>
+  <circle cx="250" cy="210" r="138" fill="none" stroke="#FFFFFF" stroke-opacity="0.28" stroke-width="2"/>
+
+  <g clip-path="url(#avatarClip)">
+    <!-- shirt / neck -->
+    <rect x="120" y="290" width="260" height="130" fill="#22303A"/>
+    <rect x="230" y="262" width="40" height="36" fill="#E7B48C"/>
+    <path d="M 120 420 L 120 312 Q 176 286 232 300 L 250 336 L 268 300 Q 324 286 380 312 L 380 420 Z" fill="#2C3E4C"/>
+    <!-- arms band -->
+    <rect x="150" y="332" width="66" height="20" fill="#22303A"/>
+    <rect x="284" y="332" width="66" height="20" fill="#22303A"/>
+    <!-- neck -->
+    <rect x="234" y="252" width="32" height="30" fill="#DFA97A"/>
+    <!-- face -->
+    <rect x="180" y="150" width="140" height="124" rx="14" fill="#F2C79C"/>
+    <!-- ears -->
+    <rect x="172" y="204" width="12" height="26" rx="5" fill="#E7B48C"/>
+    <rect x="316" y="204" width="12" height="26" rx="5" fill="#E7B48C"/>
+    <!-- hair -->
+    <path d="M 168 214 Q 158 96 250 92 Q 342 96 332 214 Q 322 140 250 136 Q 178 140 168 214 Z" fill="url(#hair)"/>
+    <rect x="160" y="196" width="22" height="76" rx="11" fill="#6B3F27"/>
+    <rect x="318" y="196" width="22" height="76" rx="11" fill="#6B3F27"/>
+    <!-- fringe -->
+    <path d="M 186 158 Q 250 122 314 158 Q 288 144 250 142 Q 212 144 186 158 Z" fill="#8A5433" fill-opacity="0.55"/>
+    <!-- eyes -->
+    <ellipse cx="216" cy="208" rx="8" ry="10" fill="#2B2118"/>
+    <ellipse cx="284" cy="208" rx="8" ry="10" fill="#2B2118"/>
+    <circle cx="219" cy="204" r="2.6" fill="#FFFFFF" fill-opacity="0.85"/>
+    <circle cx="287" cy="204" r="2.6" fill="#FFFFFF" fill-opacity="0.85"/>
+    <rect x="198" y="192" width="34" height="5" rx="2.5" fill="#6B3F27" opacity="0.75"/>
+    <rect x="268" y="192" width="34" height="5" rx="2.5" fill="#6B3F27" opacity="0.75"/>
+    <!-- blush -->
+    <ellipse cx="198" cy="232" rx="13" ry="8" fill="#E8946F" opacity="0.32"/>
+    <ellipse cx="302" cy="232" rx="13" ry="8" fill="#E8946F" opacity="0.32"/>
+    <!-- mouth -->
+    <path d="M 236 240 Q 250 254 264 240" fill="none" stroke="#A85443" stroke-width="5" stroke-linecap="round"/>
+    <!-- collar accent -->
+    <rect x="238" y="300" width="24" height="8" fill="#4F8A78"/>
+  </g>
+
+  <!-- text -->
+  <text x="468" y="196"
+        font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="72" font-weight="700" fill="#FFFFFF" letter-spacing="-1">Hi! I'm Silas.</text>
+  <text x="470" y="252"
+        font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="25" font-style="italic" fill="#EAF3EF" opacity="0.94">I turn what I learn into things other people can reuse.</text>
+  <text x="470" y="288"
+        font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="25" font-style="italic" fill="#EAF3EF" opacity="0.94">Take a tour and hope you like them!</text>
+
+  <rect x="468" y="310" width="72" height="4" rx="2" fill="#FFFFFF" opacity="0.55"/>
+
+  <text x="1128" y="368" text-anchor="end"
+        font-family="'Segoe UI','Inter','Helvetica Neue',Arial,sans-serif"
+        font-size="21" font-style="italic" fill="#FFFFFF" opacity="0.82">github.com/newbiesilas</text>
+</svg>
