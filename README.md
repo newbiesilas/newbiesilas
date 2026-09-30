@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/newbiesilas/newbiesilas/main/assets/banner.png" alt="Hi! I'm Silas." width="100%"/>
+<img src="assets/banner.png" alt="Hi! I'm Silas." width="100%"/>
 
 ## My Works
 
@@ -25,6 +25,5 @@
 
 ### 数据
 
-![repos](https://img.shields.io/github/repos/newbiesilas?style=flat-square&color=4F7F72&label=repos)
 ![followers](https://img.shields.io/github/followers/newbiesilas?style=flat-square&color=4F7F72&label=followers)
-![stars](https://img.shields.io/github/stars/newbiesilas?style=flat-square&color=4F7F72&label=stars)
+![stars](https://img.shields.io/github/stars/newbiesilas?affiliations=OWNER&style=flat-square&color=4F7F72&label=stars)
