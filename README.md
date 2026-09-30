@@ -1,4 +1,4 @@
-<img src="assets/banner.png" alt="Hi! I'm Silas." width="100%"/>
+<img src="https://cdn.jsdelivr.net/gh/newbiesilas/newbiesilas@main/assets/banner.png" alt="Hi! I'm Silas." width="100%"/>
 
 ## My Works
 
